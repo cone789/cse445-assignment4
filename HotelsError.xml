@@ -16,9 +16,9 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.0" NearestAirport="LAX">
+	<Hotel Rating="4.0">
 		<Name>Hilton Los Angeles Airport</Name>
-		<Address>
+		<Address NearestAirport="LAX">
 			<Number>5711</Number>
 			<Street>W Century Blvd</Street>
 			<City>Los Angeles</City>
@@ -26,11 +26,11 @@
 			<Zip>90045</Zip>
 		</Address>
 	</Hotel>
-	
-	<Hotel Rating="3.8" NearestAirport="ORD">
+
+	<Hotel Rating="3.8">
 		<Name>Marriott O’Hare</Name>
 		<Phone>773-693-4444</Phone>
-		<Address>
+		<Address NearestAirport="ORD">
 			<Number>8535</Number>
 			<Street>W Higgins Rd</Street>
 			<City>Chicago</City>
@@ -38,11 +38,11 @@
 			<Zip>60631</Zip>
 		</Hotel>
 
-	<Hotel Rating="4.5" NearestAirport="JFK">
+	<Hotel Rating="4.5">
 		<Name>Grand Hyatt New York</Name>
 		<Name>Duplicate Name</Name>
 		<Phone>212-883-1234</Phone>
-		<Address>
+		<Address NearestAirport="JFK">
 			<Number>109</Number>
 			<Street>E 42nd St</Street>
 			<City>New York</City>
