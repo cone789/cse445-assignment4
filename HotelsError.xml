@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+	<Hotel Rating="4.2">
+		<Name>Westin Tempe</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address>
+			<Number>11</Number>
+			<Street>E.7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.0" NearestAirport="LAX">
+		<Name>Hilton Los Angeles Airport</Name>
+		<Address>
+			<Number>5711</Number>
+			<Street>W Century Blvd</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90045</Zip>
+		</Address>
+	</Hotel>
+	
+	<Hotel Rating="3.8" NearestAirport="ORD">
+		<Name>Marriott O’Hare</Name>
+		<Phone>773-693-4444</Phone>
+		<Address>
+			<Number>8535</Number>
+			<Street>W Higgins Rd</Street>
+			<City>Chicago</City>
+			<State>IL</State>
+			<Zip>60631</Zip>
+		</Hotel>
+
+	<Hotel Rating="4.5" NearestAirport="JFK">
+		<Name>Grand Hyatt New York</Name>
+		<Name>Duplicate Name</Name>
+		<Phone>212-883-1234</Phone>
+		<Address>
+			<Number>109</Number>
+			<Street>E 42nd St</Street>
+			<City>New York</City>
+			<State>NY</State>
+			<Zip>10017</Zip>
+		</Address>
+	</Hotel>
+
+</Hotel>
